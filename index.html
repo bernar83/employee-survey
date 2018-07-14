@@ -14,10 +14,58 @@
 
     <form method="post">
         <h3>Employee Name</h3>
+
         <input type="text" name="firstName" id="firstName">
         <input type="text" name="lastName" id="lastName">
+        <br>
         <label for="firstName">First Name</label>
         <label for="lastName">Last Name</label>
+        <br>
+
+        <h3>Department</h3>
+        <input type="text" name="dept" id="dept">
+        <br>
+
+        <h3>Supervisor Name</h3>
+        <br>
+        <input type="text" name="supervisor" id="supervisorFirstName">
+        <input type="text" name="supervisor" id="supervisorLastName">
+        <br>
+        <label for="supervisor">First Name</label>
+        <label for="supervisor">Last Name</label>
+        <br>
+
+        <h3>Employee Start Date</h3>
+        <input type="date" name="startDate" id="startDate">
+        <br>
+
+        <h3>Employee Evaluation Date</h3>
+        <input type="date" name="evaluationDate" id="evaluationDate">
+        <br>
+
+        <p>Please rate the employee in the following areas on a scale of 1 to 5. 5 meaning always exceeds expectations and 1 meaning never meets expectations.</p>
+        <table>
+            <thead>
+                <tr id="rate"></tr>
+            </thead>
+            <tbody id="categories"></tbody>
+        </table>
+
+        <label for="comments">Additional Comments</label>
+        <br>
+        <textarea name="comments" rows="8"></textarea>
+        <br>
+        <input type="checkbox" name="truth" id="truth">
+        <label for="truth">The evaluation I have conducted is truthful and correct to the best of my knowledge.</label>
+        <br>
+
+        <label for="signature">Signature</label>
+        <br>
+        <label for="signature">Use your mouse or finger to draw your signature above</label>
+        <br>
+
+        <input type="button" value="Submit Form">
+
     </form>
 
     <script src="./js/jquery.min.js"></script>
