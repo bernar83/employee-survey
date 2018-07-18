@@ -412,3 +412,10 @@ h5 {
 .wholeName input[type="text"] {
   width: 98%;
 }
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 4px;
+  height: 35px;
+}
