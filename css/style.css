@@ -356,4 +356,10 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
    
