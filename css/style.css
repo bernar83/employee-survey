@@ -400,3 +400,7 @@ form h5 {
 h5 {
   margin-bottom: 10px;
 }
+
+.wholeName {
+  display: flex;
+}

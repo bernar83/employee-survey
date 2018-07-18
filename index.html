@@ -18,16 +18,22 @@
     <section>
         <div class="container">
             <form>
-                <div class="employeeName">
-                    <h5>Employee Name</h5>
-                </div>
+                <h5>Employee Name</h5>
         
-                <input type="text" name="firstName" id="firstName">
-                <input type="text" name="lastName" id="lastName">
-                <br>
-                <label for="firstName">First Name</label>
-                <label for="lastName">Last Name</label>
-                <br>
+                <div class="wholeName">
+                    <div>
+                        <input type="text" name="firstName" id="firstName">
+                        <br>
+                        <label for="firstName">First Name</label>
+                    </div>
+    
+                    <div>
+                        <input type="text" name="lastName" id="lastName">
+                        <br>
+                        <label for="lastName">Last Name</label>
+                    </div>
+                </div>
+                
         
                 <h5>Department</h5>
                 <select>
@@ -42,13 +48,19 @@
                 <br>
         
                 <h5>Supervisor Name</h5>
-                <br>
-                <input type="text" name="supervisor" id="supervisorFirstName">
-                <input type="text" name="supervisor" id="supervisorLastName">
-                <br>
-                <label for="supervisor">First Name</label>
-                <label for="supervisor">Last Name</label>
-                <br>
+                <div class="wholeName">
+                    <div>
+                        <input type="text" name="supervisor" id="supervisorFirstName">
+                        <br>
+                        <label for="supervisor">First Name</label>
+                    </div>
+
+                    <div>
+                        <input type="text" name="supervisor" id="supervisorLastName">
+                        <br>
+                        <label for="supervisor">Last Name</label>
+                    </div>
+                </div>
         
                 <h5>Employee Start Date</h5>
                 <input type="date" name="startDate" id="startDate">
