@@ -340,6 +340,10 @@ template {
   display: none;
 }
 
+
+/* CUSTOM */
+
+
 /* Global
    ========================================================================== */
 *,
@@ -380,4 +384,8 @@ header h1 {
 header .highlight {
   color: #e8491d;
   font-weight: bold;
+}
+
+header h3 {
+  font-size: 25px;
 }
