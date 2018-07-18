@@ -404,3 +404,11 @@ h5 {
 .wholeName {
   display: flex;
 }
+
+.wholeName div {
+  flex-grow: 1;
+}
+
+.wholeName input[type="text"] {
+  width: 98%;
+}
