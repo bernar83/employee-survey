@@ -373,7 +373,11 @@ header {
   border-bottom: #e8491d 3px solid;
 }
 
-.container .highlight {
+header h1 {
+  font-size: 60px;
+}
+
+header .highlight {
   color: #e8491d;
   font-weight: bold;
 }
