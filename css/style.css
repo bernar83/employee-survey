@@ -372,3 +372,8 @@ header {
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
+
+.container .highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
