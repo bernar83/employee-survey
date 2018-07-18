@@ -10,35 +10,57 @@
 <body>
     <header>
         <div class="container">
-            <h1>Your Company</h1>
+            <h1><span class="highlight">Your</span> Company</h1>
             <h3>Employee 90-Day Evaluation</h3>
         </div>
     </header>
 
     <section>
         <div class="container">
-            <form method="post">
+            <form>
                 <h5>Employee Name</h5>
         
-                <input type="text" name="firstName" id="firstName">
-                <input type="text" name="lastName" id="lastName">
-                <br>
-                <label for="firstName">First Name</label>
-                <label for="lastName">Last Name</label>
-                <br>
+                <div class="wholeName">
+                    <div>
+                        <input type="text" name="firstName" id="firstName">
+                        <br>
+                        <label for="firstName">First Name</label>
+                    </div>
+    
+                    <div>
+                        <input type="text" name="lastName" id="lastName">
+                        <br>
+                        <label for="lastName">Last Name</label>
+                    </div>
+                </div>
+                
         
                 <h5>Department</h5>
-                <input type="text" name="dept" id="dept">
+                <select>
+                    <option value="marketing">Marketing</option>
+                    <option value="sales">Sales</option>
+                    <option value="customer support">Customer Support</option>
+                    <option value="it">IT</option>
+                    <option value="development">Development</option>
+                    <option value="accounting">Accounting</option>
+                    <option value="payroll">Payroll</option>
+                </select>
                 <br>
         
                 <h5>Supervisor Name</h5>
-                <br>
-                <input type="text" name="supervisor" id="supervisorFirstName">
-                <input type="text" name="supervisor" id="supervisorLastName">
-                <br>
-                <label for="supervisor">First Name</label>
-                <label for="supervisor">Last Name</label>
-                <br>
+                <div class="wholeName">
+                    <div>
+                        <input type="text" name="supervisor" id="supervisorFirstName">
+                        <br>
+                        <label for="supervisor">First Name</label>
+                    </div>
+
+                    <div>
+                        <input type="text" name="supervisor" id="supervisorLastName">
+                        <br>
+                        <label for="supervisor">Last Name</label>
+                    </div>
+                </div>
         
                 <h5>Employee Start Date</h5>
                 <input type="date" name="startDate" id="startDate">
@@ -48,7 +70,7 @@
                 <input type="date" name="evaluationDate" id="evaluationDate">
                 <br>
         
-                <p>Please rate the employee in the following areas on a scale of 1 to 5. 5 meaning always exceeds expectations and 1 meaning never meets expectations.</p>
+                <h5>Please rate the employee in the following areas on a scale of 1 to 5. 5 meaning always exceeds expectations and 1 meaning never meets expectations.</h5>
                 <table>
                     <thead>
                         <tr id="rate"></tr>
@@ -56,16 +78,14 @@
                     <tbody id="categories"></tbody>
                 </table>
         
-                <label for="comments">Additional Comments</label>
-                <br>
+                <h5>Additional Comments</h5>
                 <textarea name="comments" rows="8"></textarea>
                 <br>
                 <input type="checkbox" name="truth" id="truth">
                 <label for="truth">The evaluation I have conducted is truthful and correct to the best of my knowledge.</label>
                 <br>
         
-                <label for="signature">Signature</label>
-                <br>
+                <h5>Signature</h5>
                 <input type="text" name="signature" id="signature">
                 <br>
         
@@ -74,7 +94,7 @@
             </form>
         </div>
     </section>
-    
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </body>

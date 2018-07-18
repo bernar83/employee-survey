@@ -340,6 +340,10 @@ template {
   display: none;
 }
 
+
+/* CUSTOM */
+
+
 /* Global
    ========================================================================== */
 *,
@@ -351,7 +355,7 @@ template {
 }
 
 body {
-  font: 15/1.5 Arial, Helvetica, sans-serif;
+  font: 15px/18px Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
@@ -362,4 +366,56 @@ body {
   margin: auto;
   overflow: hidden;
 }
-   
+
+/* Header
+   ========================================================================== */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header .highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header h3 {
+  font-size: 25px;
+}
+
+/* Form
+   ========================================================================== */
+form h5 {
+  font-size: 14px;
+  font-weight: 550;
+}  
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.wholeName {
+  display: flex;
+}
+
+.wholeName div {
+  flex-grow: 1;
+}
+
+.wholeName input[type="text"] {
+  width: 98%;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 4px;
+  height: 35px;
+}
