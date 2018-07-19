@@ -1,2 +1,2 @@
 # Employee Survey
-A web form for employee surveys.
+A mobile friendly web form for employee surveys.
