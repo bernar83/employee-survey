@@ -423,3 +423,8 @@ select {
   padding: 4px;
   height: 35px;
 }
+
+.comments,
+.signature {
+  margin-bottom: 10px;
+}
