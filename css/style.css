@@ -428,3 +428,16 @@ select {
 .signature {
   margin-bottom: 10px;
 }
+
+.button {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.submitButton {
+  margin-bottom: 20px;
+}
