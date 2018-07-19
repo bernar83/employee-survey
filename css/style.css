@@ -442,6 +442,19 @@ select {
   margin-bottom: 20px;
 }
 
+td {
+  border: 1px solid #35424a;
+  padding: 20px 0 20px 0;
+  width: 15%;
+  text-align: center;
+}
+
+table {
+  width: 98%;
+}
+
+/* Mobile
+   ========================================================================== */
 @media(max-width: 600px) {
   header .highlight {
     display: block;
