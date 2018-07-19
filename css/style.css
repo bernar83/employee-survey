@@ -413,6 +413,10 @@ h5 {
   width: 98%;
 }
 
+textarea {
+  width: 99%;
+}
+
 input[type="text"],
 input[type="date"],
 select {
