@@ -441,3 +441,15 @@ select {
 .submitButton {
   margin-bottom: 20px;
 }
+
+@media(max-width: 600px) {
+  header .highlight {
+    display: block;
+    margin-bottom: 34px;
+  }
+
+  header .formTitle {
+    display: block;
+    margin-bottom: 14px;
+  }
+}
