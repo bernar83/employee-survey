@@ -413,9 +413,56 @@ h5 {
   width: 98%;
 }
 
+textarea {
+  width: 99%;
+}
+
 input[type="text"],
 input[type="date"],
 select {
   padding: 4px;
   height: 35px;
+}
+
+.comments,
+.signature {
+  margin-bottom: 10px;
+}
+
+.button {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.submitButton {
+  margin-bottom: 20px;
+}
+
+td {
+  border: 1px solid #35424a;
+  padding: 20px 0 20px 0;
+  width: 15%;
+  text-align: center;
+}
+
+table {
+  width: 98%;
+}
+
+/* Mobile
+   ========================================================================== */
+@media(max-width: 600px) {
+  header .highlight {
+    display: block;
+    margin-bottom: 34px;
+  }
+
+  header .formTitle {
+    display: block;
+    margin-bottom: 14px;
+  }
 }
