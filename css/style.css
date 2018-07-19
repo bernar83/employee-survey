@@ -166,7 +166,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -176,7 +177,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -340,18 +342,16 @@ template {
   display: none;
 }
 
-
 /* CUSTOM */
-
 
 /* Global
    ========================================================================== */
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -395,7 +395,7 @@ header h3 {
 form h5 {
   font-size: 14px;
   font-weight: 550;
-}  
+}
 
 h5 {
   margin-bottom: 10px;
@@ -455,7 +455,7 @@ table {
 
 /* Mobile
    ========================================================================== */
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   header .highlight {
     display: block;
     margin-bottom: 34px;
