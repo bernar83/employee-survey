@@ -455,7 +455,7 @@ table {
 
 /* Mobile
    ========================================================================== */
-@media (max-width: 600px) {
+@media (max-width: 621px) {
   header .highlight {
     display: block;
     margin-bottom: 34px;
@@ -464,5 +464,11 @@ table {
   header .formTitle {
     display: block;
     margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  header h1 {
+    font-size: 53px;
   }
 }
